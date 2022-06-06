@@ -16,8 +16,14 @@ jobs:
     - name: Install dependencies
       run: npm install @semantic-release/github -D
 
-    - name: Launch semantic for project 1
-      run: npx semantic-release
+    - name: Launch semantic for service
+      run: cd service && npx semantic-release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+    - name: Launch semantic for logging
+      run: cd logging-index && npx semantic-release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
