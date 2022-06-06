@@ -1,0 +1,23 @@
+name: semantic-release
+
+on: [push]
+
+jobs:
+  semantic-release:
+    
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker://cclorg/semantic-release
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Install dependencies
+      run: npm install @semantic-release/github -D
+
+    - name: Launch semantic for project 1
+      run: npx semantic-release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
