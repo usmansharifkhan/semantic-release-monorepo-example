@@ -17,11 +17,11 @@ jobs:
       run: npm install @semantic-release/github semantic-release-monorepo -D
 
     - name: Launch semantic for project 1
-      run: cd project1 && npm run semantic-release -e semantic-release-monorepo
+      run: cd project1 && npx semantic-release -e semantic-release-monorepo
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Launch semantic for project 2
-      run: cd project2 && npm run semantic-release -e semantic-release-monorepo
+      run: cd project2 && npx semantic-release -e semantic-release-monorepo
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
