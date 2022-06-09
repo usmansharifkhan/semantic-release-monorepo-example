@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: docker://cclorg/semantic-release
+      image: node:14.17-alpine
 
     steps:
     - uses: actions/checkout@v2
