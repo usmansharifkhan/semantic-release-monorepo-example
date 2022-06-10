@@ -1,3 +1,3 @@
 # logging-index
 
- Updated logging-index readme for testing - update
+ Updated logging-index readme for testing - updated

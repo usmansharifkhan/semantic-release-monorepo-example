@@ -10,13 +10,13 @@
         [
             "@semantic-release/changelog",
             {
-                "changelogFile": "CHANGELOG.md"
+                "changelogFile": "service/CHANGELOG.md"
             }
         ],
         [
             "@semantic-release/github", 
             {
-                "assets": ["**"]
+                "assets": ["service/**"]
             }
         ]
       ]
