@@ -1,5 +1,5 @@
 {
-    "name": "@usmansharifkhan/semantic-release-monorepo-example",
+    "name": "service",
     "version": "0.0.0-semantic-release",
     "description": "Subpackage",
     "repository": "https://github.com/usmansharifkhan/semantic-release-monorepo-example",

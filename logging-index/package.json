@@ -1,5 +1,5 @@
 {
-    "name": "@usmansharifkhan/semantic-release-monorepo-example",
+    "name": "logging-index",
     "version": "0.0.0-semantic-release",
     "description": "Subpackage",
     "repository": "https://github.com/usmansharifkhan/semantic-release-monorepo-example",
