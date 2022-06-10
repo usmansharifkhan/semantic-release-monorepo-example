@@ -17,12 +17,12 @@ jobs:
       run: apk add git && npm install -D @semantic-release/github semantic-release semantic-release-monorepo
 
     - name: Launch semantic for service
-      run: cd service && npx semantic-release -e semantic-release-monorepo
+      run: cd service && npx semantic-release -e semantic-release-monorepo --tag-format service-\${version}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Launch semantic for logging
-      run: cd logging-index && npx semantic-release -e semantic-release-monorepo
+      run: cd logging-index && npx semantic-release -e semantic-release-monorepo --tag-format logging-index-\${version}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
