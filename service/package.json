@@ -17,7 +17,7 @@
           "semantic-release-plugin-update-version-in-files", 
           {
             "files": [
-              ".version"
+              "service/.version"
             ],
             "placeholder": "${lastRelease.version}"
           }
