@@ -1,3 +1,11 @@
+# [service-v1.1.5](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.4...service-1.1.5) (2022-06-13)
+
+
+### Bug Fixes
+
+* testing version file impl ([a27fe20](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/a27fe209aae1bd637492befdfbe347712f8fec56))
+* updated readme of service module ([726c58f](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/726c58fc1a5c23a949d020a11a7f2e0a6802420d))
+
 # [service-v1.1.4](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.3...service-1.1.4) (2022-06-10)
 
 
