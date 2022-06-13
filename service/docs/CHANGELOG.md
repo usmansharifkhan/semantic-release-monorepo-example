@@ -1,3 +1,10 @@
+# [service-v1.1.6](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.5...service-1.1.6) (2022-06-13)
+
+
+### Bug Fixes
+
+* another update to test pipeline - 2 ([e1a4e63](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/e1a4e63fa5162a1af7917ef16cd8a95c0074a0e2))
+
 # [service-v1.1.5](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.4...service-1.1.5) (2022-06-13)
 
 
