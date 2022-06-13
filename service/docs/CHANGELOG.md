@@ -1,3 +1,10 @@
+# [service-v1.1.12](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.11...service-1.1.12) (2022-06-13)
+
+
+### Bug Fixes
+
+* tuning the regex expression ([3869c0d](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/3869c0d8d9f8ddbc746982a19a432727912bdaf4))
+
 # [service-v1.1.11](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.10...service-1.1.11) (2022-06-13)
 
 
