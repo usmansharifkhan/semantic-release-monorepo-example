@@ -1,3 +1,12 @@
+# [service-v1.1.7](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.6...service-1.1.7) (2022-06-13)
+
+
+### Bug Fixes
+
+* another update to test pipeline - 3 ([b1482a7](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/b1482a7608b90c83757cd197ae84fc999e3c55eb))
+* another update to test pipeline - 4 ([41a60f7](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/41a60f70a9c367e1e0ffa206c30f3fbf34347aa7))
+* testing with replacement file plugin ([cfd7c76](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/cfd7c76e4acbd3ac596de29c6e4f930afc56ee55))
+
 # [service-v1.1.6](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.5...service-1.1.6) (2022-06-13)
 
 
