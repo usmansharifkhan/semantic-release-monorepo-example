@@ -13,11 +13,19 @@
             "changelogFile": "docs/CHANGELOG.md"
           }
         ],
-        "@semantic-release/npm",
+        [
+          "semantic-release-plugin-update-version-in-files", 
+          {
+            "files": [
+              ".version"
+            ],
+            "placeholder": "${lastRelease.version}"
+          }
+        ],
         [
           "@semantic-release/git",
           {
-            "assets": ["docs/CHANGELOG.md", "package.json"]
+            "assets": ["docs/CHANGELOG.md", ".version"]
           }
         ],
         "@semantic-release/github"
