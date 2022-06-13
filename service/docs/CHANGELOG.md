@@ -1,3 +1,10 @@
+# [service-v1.1.10](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.9...service-1.1.10) (2022-06-13)
+
+
+### Bug Fixes
+
+* added lastRelease variable ([d0bdf47](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/d0bdf4730a0846e00c07c2b8bf21ca0cee267767))
+
 # [service-v1.1.9](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.8...service-1.1.9) (2022-06-13)
 
 
