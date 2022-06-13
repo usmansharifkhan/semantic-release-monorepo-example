@@ -13,18 +13,18 @@
             "changelogFile": "docs/CHANGELOG.md"
           }
         ],
-        [
-          "@semantic-release/git",
-          {
-            "assets": ["docs/CHANGELOG.md"]
-          }
-        ],
-        "@semantic-release/github",
         ["@semantic-release/exec",
           {
             "publishCmd": "echo ${nextRelease.version} > .version"
           }
-        ]
+        ],
+        [
+          "@semantic-release/git",
+          {
+            "assets": ["docs/CHANGELOG.md", ".version"]
+          }
+        ],
+        "@semantic-release/github"
       ]
     },
     "scripts": {
