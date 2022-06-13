@@ -13,9 +13,9 @@
             "changelogFile": "docs/CHANGELOG.md"
           }
         ],
-        ["@semantic-release/exec",
+        ["@semantic-release/exec", 
           {
-            "publishCmd": "echo ${nextRelease.version} > .version"
+            "prepareCmd": "./update-version.sh ${nextRelease.version}"
           }
         ],
         [
