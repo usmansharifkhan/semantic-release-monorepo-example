@@ -13,15 +13,11 @@
             "changelogFile": "docs/CHANGELOG.md"
           }
         ],
-        ["@semantic-release/exec", 
-          {
-            "prepareCmd": "./update-version.sh ${nextRelease.version}"
-          }
-        ],
+        "@semantic-release/npm",
         [
           "@semantic-release/git",
           {
-            "assets": ["docs/CHANGELOG.md", ".version"]
+            "assets": ["docs/CHANGELOG.md", "package.json"]
           }
         ],
         "@semantic-release/github"
