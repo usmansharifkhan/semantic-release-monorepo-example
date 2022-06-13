@@ -11,15 +11,15 @@
           "semantic-release-plugin-update-version-in-files", 
           {
             "files": [
-              "logging-index/.version"
+              ".version"
             ],
-            "placeholder": "${lastRelease.version}"
+            "placeholder": "0.0.0"
           }
         ],
         [
           "@semantic-release/git",
           {
-            "assets": ["docs/CHANGELOG.md", "logging-index/.version"]
+            "assets": ["docs/CHANGELOG.md", ".version"]
           }
         ],
         "@semantic-release/github"

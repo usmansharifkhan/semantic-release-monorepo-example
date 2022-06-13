@@ -19,13 +19,13 @@
             "files": [
               "service/.version"
             ],
-            "placeholder": "${lastRelease.version}"
+            "placeholder": "0.0.0"
           }
         ],
         [
           "@semantic-release/git",
           {
-            "assets": ["docs/CHANGELOG.md", ".version"]
+            "assets": ["service/docs/CHANGELOG.md", "service/.version"]
           }
         ],
         "@semantic-release/github"
