@@ -1,40 +1,49 @@
 {
-    "name": "service",
-    "version": "0.0.0-semantic-release",
-    "description": "Subpackage",
-    "repository": "https://github.com/usmansharifkhan/semantic-release-monorepo-example",
-    "release": {
+  "name": "service",
+  "version": "0.0.0-semantic-release",
+  "description": "Subpackage",
+  "repository": "https://github.com/usmansharifkhan/semantic-release-monorepo-example",
+  "release": {
+      "tagFormat": "${version}",
       "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        [
-          "@semantic-release/changelog",
-          {
-            "changelogFile": "docs/CHANGELOG.md"
-          }
-        ],
-        [
-          "semantic-release-plugin-update-version-in-files", 
-          {
-            "files": [
-              ".version"
-            ],
-            "placeholder": "\\d+.\\d+\\.\\d+"
-          }
-        ],
-        [
-          "@semantic-release/git",
-          {
-            "assets": ["docs/CHANGELOG.md", ".version"]
-          }
-        ],
-        "@semantic-release/github"
+          "@semantic-release/commit-analyzer",
+          "@semantic-release/release-notes-generator",
+          [
+              "@semantic-release/changelog",
+              {
+                  "changelogFile": "docs/CHANGELOG.md"
+              }
+          ],
+          [
+              "semantic-release-plugin-update-version-in-files",
+              {
+                  "files": [
+                      ".version"
+                  ],
+                  "placeholder": "\\d+.\\d+\\.\\d+"
+              }
+          ],
+          [
+              "@semantic-release/git",
+              {
+                  "assets": [
+                      "docs/CHANGELOG.md",
+                      ".version"
+                  ]
+              }
+          ],
+          "@semantic-release/github"
       ]
-    },
-    "scripts": {
+  },
+  "scripts": {
       "semantic-release": "semantic-release"
-    },
-    "devDependencies": {
-      "semantic-release": "^15.13.18"
-    }
+  },
+  "devDependencies": {
+      "@semantic-release/changelog": "^6.0.1",
+      "@semantic-release/git": "^10.0.1",
+      "@semantic-release/github": "^8.0.4",
+      "semantic-release": "^19.0.3",
+      "semantic-release-monorepo": "^7.0.5",
+      "semantic-release-plugin-update-version-in-files": "^1.1.0"
   }
+}

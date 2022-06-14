@@ -8,16 +8,16 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: node:14.17-alpine
+      image: node:16.15-alpine
 
     steps:
     - uses: actions/checkout@v1
 
     - name: Install dependencies
-      run: apk add git && npm install -D semantic-release semantic-release-monorepo @semantic-release/changelog @semantic-release/git @semantic-release/github semantic-release-plugin-update-version-in-files
+      run: apk add git  && npm ci
 
     - name: Launch semantic for service
-      run: cd service && for moduleName in service logging-index; do cd ../${moduleName} && npx semantic-release -e semantic-release-monorepo --tag-format ${moduleName}-\${version}; done;
+      run: cd service && for moduleName in service logging-index; do cd ../${moduleName} && npx semantic-release -e semantic-release-monorepo; done;
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
