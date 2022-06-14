@@ -1,3 +1,11 @@
+# [service-v1.1.13](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.12...service-1.1.13) (2022-06-14)
+
+
+### Bug Fixes
+
+* fixed the dependency installation ([8fe70cf](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/8fe70cf2239704f636da6a7d1fae5319efc31645))
+* updating ci config ([15a57dc](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/15a57dc6e5a83c1d05505805758c8861bd97759b))
+
 # [service-v1.1.12](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.11...service-1.1.12) (2022-06-13)
 
 
