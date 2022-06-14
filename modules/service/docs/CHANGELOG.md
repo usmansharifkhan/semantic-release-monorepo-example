@@ -1,3 +1,10 @@
+# [service-v1.1.15](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.14...service-1.1.15) (2022-06-14)
+
+
+### Bug Fixes
+
+* changed directory structure ([be757da](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/be757dafc420bcc42cc28f7d86133202c2126d3e))
+
 # [service-v1.1.14](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.13...service-1.1.14) (2022-06-14)
 
 
