@@ -17,7 +17,7 @@ jobs:
       run: apk add git  && npm ci
 
     - name: Launch semantic for service
-      run: cd service && for moduleName in service logging-index; do cd ../${moduleName} && npx semantic-release -e semantic-release-monorepo; done;
+      run: cd modules/service && for moduleName in service logging-index; do cd ../${moduleName} && npx semantic-release -e semantic-release-monorepo; done;
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
