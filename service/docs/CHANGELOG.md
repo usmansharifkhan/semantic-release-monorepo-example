@@ -1,3 +1,11 @@
+# [service-v1.1.14](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.13...service-1.1.14) (2022-06-14)
+
+
+### Bug Fixes
+
+* incorporate package json changes ([0f455f4](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/0f455f4f6bed576948db9bdc26e1efa555b7e8c3))
+* updated tagFormat ([ac053c6](https://github.com/usmansharifkhan/semantic-release-monorepo-example/commit/ac053c65e5b385f20fd5d1acdca1dfdb1c1d9d7d))
+
 # [service-v1.1.13](https://github.com/usmansharifkhan/semantic-release-monorepo-example/compare/service-1.1.12...service-1.1.13) (2022-06-14)
 
 
