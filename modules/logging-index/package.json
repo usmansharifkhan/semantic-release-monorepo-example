@@ -32,7 +32,16 @@
                   ]
               }
           ],
-          "@semantic-release/github"
+          [
+          "@semantic-release/github",
+          {
+              "assets":
+              [{
+                "path" : "logging-index",
+                "name" : "logging-${nextRelease.gitTag}",
+                "label": "logging-test ${nextRelease.gitTag}"
+              }]
+          }]
       ]
   },
   "scripts": {
